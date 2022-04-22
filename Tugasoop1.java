@@ -9,23 +9,21 @@ package tugasoop1;
  * @author aisyah
  */
 
-public class hashira{
-    int hashira;
+class personalization{
+    string name;
+    int age;
+}
     
-  public hashira (String name) {
-    System.out.printIn("Name chosen is:" + name);
-}
-public void setAge(int age) {
-    hashiraAge = age;
-}
- public int getAge(){
-    System.out.printIn("hashira's Age is: " + hasiraAge);
-    return hashiraAge;
-}
- public static void main (String []args) {
-     hashira kny = new hashira ( "giyuu" );
-     hashirakny.setAge (19);
-     hashirakny.getAge();
-     System.out.printIn("variable value:" + hashirakny.hashiraAge);
+public class hashira{
+    
+   public static void main (String []args) {
+    personalization hashira1 = new personalization();
+    hashira1.name = "tomiyoka giyuu"
+    hashira1.age = 19;
+       
+    System.out.printIn("name: " + hashira1.name);
+    System.out.printIn("age: " + hashira1.age);   
+    
+  
   }  
 }
