@@ -5,15 +5,15 @@ public static void main(String[] args) {
     switch(n) {
         case '1' :
         System.out.println("Ayo mandi"); 
-           break; // optional
+           break; 
         
         case '2' :
         System.out.println("ayo makan"); 
-           break; // optional
+           break; 
 
         case '3' :
         System.out.println("ayo minum"); 
-            break; // optional
+            break; 
         }
 
 }
