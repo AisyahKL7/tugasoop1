@@ -1,1 +1,44 @@
+package kendaraann;
+
+public class Main {
+   public static void main(String[]args){
+   
+      mobil k1 = new mobil();
+      motor k2 = new motor();
+      
+      k2.go();
+      k1.bukaJendela();
+      k1.go();
+   } 
+}
+
+
+public class kendaraan {
+
+ double kecepatan;
+  public static void go(){
+  System.out.println("kendaraan jalan!");
+   }
+  public static void stop(){
+  System.out.println("kendaraan berhenti!");
+  }  
+}
+
+
+
+public class mobil extends kendaraan {
+  
+  public static void bukaJendela(){
+  System.out.println("Mulai membuka Jendela!");
+  }
+}
+
+
+
+public class motor extends kendaraan{
+  
+  public static void membukaJok(){
+  System.out.println("Mulai membuka Jok!");
+  }  
+}
 
