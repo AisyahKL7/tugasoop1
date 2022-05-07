@@ -1,0 +1,32 @@
+package overriding;
+
+public class Main {
+
+    public static void main(String[] args) {
+     patrick p1 = new patrick();
+     bikiniButtom warga = new bikiniButtom();
+     
+     p1.work();
+     warga.work();
+        
+    } 
+}
+
+
+
+public class bikiniButtom {
+    public static void work(){
+    System.out.println("pergi ke krusty krab!");
+  }         
+}
+
+
+
+public class patrick extends bikiniButtom {
+    //override
+    public static void work(){
+    System.out.println("pergi ke rumah spongebob!");
+  }      
+}
+
+
