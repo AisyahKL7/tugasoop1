@@ -16,10 +16,10 @@ public class Main {
 public class kendaraan {
 
  double kecepatan;
-  public static void go(){
+  public void go(){
   System.out.println("kendaraan jalan!");
    }
-  public static void stop(){
+  public void stop(){
   System.out.println("kendaraan berhenti!");
   }  
 }
@@ -28,7 +28,7 @@ public class kendaraan {
 
 public class mobil extends kendaraan {
   
-  public static void bukaJendela(){
+  public void bukaJendela(){
   System.out.println("Mulai membuka Jendela!");
   }
 }
@@ -37,7 +37,7 @@ public class mobil extends kendaraan {
 
 public class motor extends kendaraan{
   
-  public static void membukaJok(){
+  public void membukaJok(){
   System.out.println("Mulai membuka Jok!");
   }  
 }
