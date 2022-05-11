@@ -1,1 +1,37 @@
+package poly;
+public class Poly {
+    public static void main(String[] args) {
+        food alice[]= new food[2];
+        alice[0] = new permen();
+        alice[1] = new coklat();
+        
+        for(int i=0; i<2; ++i){
+            alice[i].eat();
+        }
+    } 
+}
 
+
+public class food {
+    void eat(){
+    System.out.println("enak banget loch");
+    }
+}
+
+
+
+public class coklat extends food {
+     @Override
+    void eat(){
+    System.out.println("coklat ini enak banget loch");
+    } 
+}
+
+
+
+public class permen extends food {
+    @Override
+    void eat(){
+    System.out.println("permen ini enak banget loch");
+    }
+}
