@@ -15,7 +15,7 @@ public class Main {
 
 
 public class bikiniButtom {
-    public static void work(){
+    public void work(){
     System.out.println("pergi ke krusty krab!");
   }         
 }
@@ -23,8 +23,7 @@ public class bikiniButtom {
 
 
 public class patrick extends bikiniButtom {
-    //override
-    public static void work(){
+    public void work(){
     System.out.println("pergi ke rumah spongebob!");
   }      
 }
